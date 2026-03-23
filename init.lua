@@ -27,6 +27,9 @@ require "lazy_setup"
 require "polish"
 
 --Put personnal configuration here !!
+vim.cmd([[
+	set notermguicolors
+]])
 require "user"
 
 
