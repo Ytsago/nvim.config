@@ -28,8 +28,20 @@ require "polish"
 
 --Put personnal configuration here !!
 vim.cmd([[
-	set notermguicolors
+	"set notermguicolors
+	"highligh @type ctermfg=1 cterm=bold
+	"highligh @function ctermfg=2
+	"highligh @parameter ctermfg=3
+	"highligh @variable ctermfg=4
+	"highligh @variable ctermfg=5
+	"highligh @keyword ctermfg=6
+	"highligh @keyword.conditional ctermfg=6
+	"highligh @keyword.repeat ctermfg=6
+	"highligh @keyword.return ctermfg=6
+	"highligh @comment ctermfg=7
+	"highligh @type.builtin ctermfg=8 cterm=bold
+	"highligh @number ctermfg=9 cterm=bold
+	"highligh @lsp.type.enumMember ctermfg=10 cterm=bold
+	"highligh @lsp.type.macro ctermfg=11 cterm=bold
 ]])
-require "user"
-
 
