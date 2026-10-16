@@ -50,6 +50,10 @@ return {
         end,
       },
     },
+
+    mini = {
+      enabled = true,
+    },
   },
   {
     "LazyVim/LazyVim",
